@@ -1,0 +1,18 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    "Discuss": {
+      ".indexOn": [
+        "timestamp",
+        "authorId"
+      ]
+    },
+    "Ads": {
+      ".indexOn": [
+        "timestamp",
+        "authorId"
+      ]
+    }
+  }
+}
